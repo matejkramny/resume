@@ -27,7 +27,7 @@
 
   {% if contact.website %}
   <li class="website"><i class="fas fa-globe"></i>
-    <a href="{{ contact.website }}" target="_blank">{{ contact.website }}</a>
+    <a href="https://{{ contact.website }}" target="_blank">{{ contact.website }}</a>
   </li>
   {% endif %}
 
@@ -61,9 +61,9 @@
   </li>
   {% endif %}
 
-  {% if contact.stack-overflow %}
+  {% if contact.stackoverflow %}
   <li class="stack-overflow"><i class="fab fa-stack-overflow"></i>
-    <a href="https://stackoverflow.com/users/{{ contact.stack-overflow }}" target="_blank">{{ contact.stack-overflow }}</a>
+    <a href="https://stackoverflow.com/users/{{ contact.stackoverflow }}" target="_blank">{{ contact.stackoverflow }}</a>
   </li>
   {% endif %}
 

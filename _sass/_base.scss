@@ -24,6 +24,18 @@ p {
     margin-bottom: $spacing-unit / 4;
 }
 
+ul {
+    margin-bottom: 8px;
+}
+
+li {
+    text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $heading-font-family;
+}
+
 .wrapper {
     background: $wrapper-color;
     max-width: $content-width;
@@ -34,24 +46,25 @@ p {
     
     .section-title {
         text-transform: uppercase;
-        font-size: $large-font-size;
+        font-family: $heading-font-family;
+        font-size: $huge-font-size * 0.8;
         font-weight: 500;
         color: $theme-color;
         position: relative;
         margin-top: 0;
         margin-bottom: $spacing-unit / 2;
-        border-bottom: 2px dashed rgba($theme-color, 25%);
+        border-bottom: 1px solid rgba($theme-color, 25%);
     }
 
     .section {
-        margin-bottom: $spacing-unit / 2;
+        margin-bottom: $spacing-unit / 6;
     }
 
     .name {
         font-size: $huge-font-size;
         font-weight: 900;
         margin-top: 0;
-        margin-bottom: $spacing-unit / 2;
+        margin-bottom: $spacing-unit / 4;
     }
 
     .title {
@@ -59,7 +72,7 @@ p {
         font-size: $middle-font-size;
         font-weight: $base-font-weight;
         margin-top: 0;
-        margin-bottom: $spacing-unit / 2;
+        margin-bottom: $spacing-unit / 4;
     }
 
     .contact-list {
@@ -83,7 +96,7 @@ p {
     }
 
     .item {
-        padding-bottom: $spacing-unit / 2;
+        padding-bottom: $spacing-unit / 4;
     }
 
     .upper-row {
@@ -103,7 +116,8 @@ p {
         font-style: italic;
     }
 
-    .company, .university {
+    .company, .university, .project-title {
+        // font-family: $heading-font-family;
         font-weight: 700;
     }
 

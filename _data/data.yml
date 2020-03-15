@@ -1,160 +1,146 @@
 intro:
-    name: Foo Bar
-    title: Backend Developer
-    avatar:
-        display: true
-        path: profile.png
+  name: Matej Kramny
+  title: Experienced Software Engineer | Architect | Top 5% overall on StackOverflow
+  avatar:
+    display: false
+    path: profile.png
 
 contact:
-    email: me@example.com
-    phone: +86-111-1111-1111
-    wechat: 
-    telegram: 
-    website: https://example.com
-    linkedin: 
-    github: github
-    gitlab: 
-    bitbucket: 
-    twitter: twitter
-    stackoverflow: 
-    codewars: 
-    goodreads: 
+  email: cv@matej.me
+  phone: +65 8165-1204
+  wa: +44 79-555-222-39
+  website: matej.me
+  linkedin: matejkramny
+  github: matejkramny
+  stackoverflow: 666835
 
 languages:
-    display: true
-    title: Languages
-    items:
-        - idiom: Chinese
-          level: Native
-
-        - idiom: English
-          level: Professional
+  display: false
+  title: Languages
+  items:
+  - idiom: English
+    level: Native
 
 interests:
-    display: true
-    title: Interests
-    items:
-        - item: Reading
-          link:
-        - item: Cooking
-    
+  display: false
+  title: Interests
+  items:
+  - item: Reading
+    link:
+  - item: Cooking
+
 profile:
-    display: true
-    title: Profile
-    details: |
-      It's your career profile, you can wirte markdown format text.
-      + First
-      + Second
-
-      ...
-
-education:
-    display: true
-    title: Education
-    items:
-        - university: Example University
-          time: 2015 - 2018
-          major: Machine Learning
-          degree: Master
-          details: |
-            Experience in this university:
-            + First
-            + Second
-            
-            ...
-        
-        - university: Example University
-          time: 2011 - 2015
-          major: Computer Science
-          degree: Bachelor
-          details: |
-            Experience in this university:
-            + First
-            + Second
-            
-            ...
-
-experiences:
-    display: true
-    title: Experiences
-    items:
-        - role: Backend Developer
-          time: 2018.03 - 2019.03
-          company: Second Company
-          location: Beijing
-          details: |
-            Experience in this company:
-            + First
-            + Second
-
-            ...
-        
-        - role: Backend Developer
-          time: 2017.03 - 2018.03
-          company: First Company
-          location: Beijing
-          details: |
-            Experience in this company:
-            + First
-            + Second
-
-            ...
-
-projects:
-    display: true
-    title: Projects
-    intro: |
-      This is all the projects I'm involved in.
-    
-    items:
-        - name: Foo
-          link: 
-          details: |
-            Project Foo's detail, you can write markdown format text.
-
-        - name: Bar
-          link: 
-          details: |
-            Project Bar's detail, you can write markdown format text.
-
-publications:
-    display: true
-    title: Publications
-    intro: |
-      This is all the books I wrote.
-
-    items:
-        - title: Foo in Action
-          authors: Foo Bar
-          conference: Foobar, 2019
-          link: https://www.google.com
-        
-        - title: The Art of Bar
-          authors: Foo Bar
-          conference: Foobar, 2019
-          link: https://www.google.com
-
-skills:
-    display: true
-    title: Skills
-    details: |
-      Here is my skills:
-      + First
-      + Second
-
-      ...
-
-evaluation:
-  display: true
-  title: Self-evaluation
+  display: false
+  title: Profile
   details: |
-    Here is my self evaluation.
+    It's your career profile, you can wirte markdown format text.
     + First
     + Second
 
     ...
 
-footer: 
+education:
+  display: true
+  title: Education
+  items:
+  - university: City of Oxford College
+    time: 2012 - 2014
+    major: Information Technology
+    degree: Diploma
+    details: |
+      Studied information technology in Oxford.
+
+experiences:
+  display: true
+  title: Experience
+  items:
+  - role: Software Architect
+    time: May 2019 - Present
+    company: LiveMore PTE LTD
+    location: Singapore
+    tag: self-development app providing content from experts worldwide
+    details: |
+      - Mentored developers, translating ideas into design and requirements with enough room to change in the future
+      - Architected solutions to facilitate fast growth, whilst ensuring security and speed for users for an ever changing set of requirements
+  - role: Owner, Senior Software Engineer
+    time: Jun 2014 - Present
+    company: Castaway Consulting Ltd
+    location: London, United Kingdom
+    tag: provides software consulting services for it's clients worldwide
+    details: |
+      - Consulted 17 clients from different industries, focussed on quality and reputation
+      - Created leads, secured sales, performed accounting jobs, payroll, client interaction & entertainment
+  - role: Co-Founder, CTO
+    time: Nov 2017 - Apr 2019
+    company: Maple Intelligence SG PTE LTD
+    location: Singapore
+    tag: B2B work-order platform for the enterprise
+    details: |
+      - Created B2B platform that enables companies of any size manage their workers quickly and efficiently using our work order system
+      - Clients include on of Asia's largest property developer
+  - role: Lead Software Engineer
+    time: Aug 2013 - Aug 2018
+    company: TellTheChef.com LTD
+    location: Oxford, United Kingdom
+    tag: a food pre-ordering system for the hospitality industry
+    details: |
+      - Lead a team of developers to create new company software, ensuring it fits high standards and founder's vision
+      - Created interactive data analysis from their database, using Highcharts, d3 and PHP
+      - Transitioned the company towards cloud-based infrastructure, created an automatic code deployment pipeline, automatic server scaling based on demand
+  - role: Software Engineer
+    time: Dec 2014 - Mar 2015
+    company: Soft Pauer
+    location: Bicester, United Kingdom
+    tag: created the Formula1 Official app
+    details: |
+      - Improved the Formula1 Official app and developed a new F1 Timing website
+      - Consulted F1 management about app problems and possible solutions
+      - Automated DevOps operation, from many manual scripts towards ansible
+      - Contribute to the DevOps team and the F1 Paddock App, a social networking app for VIP users
+  - role: Software Engineer
+    time: Apr 2014 - Oct 2014
+    company: iJento
+    location: Milton Park, Abingdon
+    tag: data analytics company
+    details: |
+      - Created an interface combining analytics tools into one simple interface using modern tools and agile practices
+
+projects:
+  display: true
+  title: Projects
+  intro: |
+    Here are some of my best projects
+  items:
+  - name: HTC eSports
+    link: https://n.matej.me/htc-esports
+    time: Jun 2017 – Aug 2018
+    details: |
+      - HTC eSports is commercial project that I really enjoyed doing, it presented a lot of challenges and later provided validation of our technical capabilities.
+      - Backed by a CMS system Grav, we were able to provide the client with a blazing-fast website. Our audits scored top marks in Chrome's Lighthouse.
+  - name: Semaphore
+    link: https://n.matej.me/ansible-semaphore
+    time: Aug 2014 – Present
+    details: |
+      - This is an open source community project I created, it is targeted to serve as an alternative, free interface to the closed-source Ansible Tower
+      - Ansible is an automation tool that can provision entire data centers.
+      - It has since gathered a medium-size community around who actively supports and maintains it
+      - 3.3k users / stargazers, 42 contributors & 160 merge requests
+  - name: NodeGear
+    link: https://n.matej.me/nodecloud-nodegear
+    time: Aug 2013  Mar 2015
+    details: |
+      - PaaS that today resembles some Kubernetes features before it's inception
+      - Co-owned the company & responsible for deployment, security, architecture and uptime
+
+skills:
+  display: true
+  title: Skills
+  details: |
+    **Technical:** GCP & AWS, Kubernetes, Golang, JS, Angular, C, C++, Java, Git, TypeScript, PHP, Flutter, Ionic, Bash scripting, Highcharts, Embedded Electronics <br/>
+    **Business:** Teamwork, Leadership, Teaching, Documentation, Client communication <br/>
+    **Other:** Accounting, Software Security, LaTeX, Customer Support & Consulting
+
+footer:
   display: true
 
 close: >
