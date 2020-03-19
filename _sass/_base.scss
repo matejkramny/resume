@@ -68,9 +68,10 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .title {
+        font-family: $base-font-family;
         color: $text-color-secondary;
         font-size: $middle-font-size;
-        font-weight: $base-font-weight;
+        font-weight: 700;
         margin-top: 0;
         margin-bottom: $spacing-unit / 4;
     }
@@ -110,6 +111,11 @@ h1, h2, h3, h4, h5, h6 {
         right: 0;
         top: 0;
         color: $text-grey;
+        font-size: $base-font-size - 0.5;
+        font-weight: $base-font-weight;
+    }
+    .location {
+        top: -2px;
     }
 
     .role, .major {
@@ -117,6 +123,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .company, .university, .project-title {
+        position: relative;
         // font-family: $heading-font-family;
         font-weight: 700;
     }

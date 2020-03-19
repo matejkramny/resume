@@ -30,7 +30,7 @@ interests:
   - item: Cooking
 
 profile:
-  display: false
+  display: true
   title: Profile
   details: |
     - 7 years of professional experience as software engineer
@@ -104,8 +104,7 @@ experiences:
 projects:
   display: true
   title: Projects
-  intro: |
-    Here are some of my best projects
+  intro:
   items:
   - name: HTC eSports
     link: https://matej.me/htc-esports
