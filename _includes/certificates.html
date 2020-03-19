@@ -1,4 +1,4 @@
-{% assign education = data.education %}
+{% assign education = data.certificates %}
 {% if education and education.display %}
   <section class="section educations-section">
 
@@ -12,13 +12,12 @@
         <div class="item">
         
           <div class="upper-row">
-            <div class="university">{{ graduation.university }}</div>
-            <div class="time">{{ graduation.time }}</div>
+            <div class="university">{{ graduation.major }}</div>
           </div>
 
           <div class="upper-row">
-              <div class="major">{{ graduation.major }}</div>
-              <div class="degree">{{ graduation.degree }}</div>
+              <div class="major">{{ graduation.university }}</div>
+              <div class="time">{{ graduation.time }}</div>
           </div>
 
           {% if graduation.details %}

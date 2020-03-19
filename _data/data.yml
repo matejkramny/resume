@@ -1,6 +1,6 @@
 intro:
   name: Matej Kramny
-  title: Software Engineer (7+ years of professional experience) | Architect | Top 5% overall on StackOverflow
+  title: Full Stack Software Engineer & Architect (7yr+ experience) | Top 5% overall on StackOverflow
   avatar:
     display: false
     path: profile.png
@@ -35,6 +35,22 @@ profile:
   details: |
     - 7 years of professional experience as software engineer
 
+certificates:
+  display: true
+  title: Certificates
+  items:
+  - university: by Stanford University / Coursera
+    time: "*2020"
+    major: Algorithms Specialization
+    degree: Certificate
+  - university: by Google / Coursera
+    time: 2020
+    major: Google IT Automation with Python
+  - university: by Cisco
+    time: 2014
+    major: CCNA Routing and Switching
+    degree: Certificate
+
 education:
   display: true
   title: Education
@@ -43,8 +59,6 @@ education:
     time: 2012 - 2014
     major: Information Technology
     degree: Diploma
-    details: |
-      Studied information technology in Oxford, alongside earned a CCNA certificate and studied for the SCJP (Java 6) exam
 
 experiences:
   display: true
@@ -56,86 +70,82 @@ experiences:
     location: Singapore
     tag: self-development app providing content from experts worldwide
     details: |
-      - Interviewing & mentoring developers, communicating ideas and design requirements to the team
-      - Architected solutions to accomodate future growth, whilst ensuring service security and speed for an ever changing set of requirements
+      - Built and architected the app, API, and infrastructure from scratch, designed to accommodate future growth, whilst ensuring service security and speed for an ever-changing set of requirements
+      - Successfully launched MVP and final app on iOS and Android, optimized app by deploying a second data center in Europe
+      - Integrated Stripe payments, created a marketplace and implemented a cryptocurrency system
+      - Interview, mentor developers and communicate ideas and design requirements to the team
   - role: Owner, Senior Software Engineer
     time: Jun 2014 - Present
     company: Castaway Consulting Ltd
     location: London, United Kingdom
     tag: provides software consulting services for it's clients worldwide
     details: |
-      - Overall consulted 20+ clients from different industries; per year we grew our revenue 36% on average
-      - Created leads, secured sales, performed accounting jobs, payroll, client interaction & entertainment
+      - Consulted 20+ clients from different industries and managed to grow yearly revenue by 36%
+      - Created leads, secured sales, performed accounting jobs, payroll, set up client meetings
   - role: Co-Founder, CTO
     time: Nov 2017 - Apr 2019
     company: Maple Intelligence SG PTE LTD
     location: Singapore
     tag: B2B work-order platform for the enterprise
     details: |
-      - Created B2B work-order platform that enables companies of any size manage their workers quickly and efficiently
-      - One of Asia's largest property developer improved their response time by 40 minutes on average and saved every worker's roughly 3 hours a day (cumulating to about 1100 hrs per day)
-      - Written 42% of tests for the API, architected and automated deployment on GCP
+      - Pitched business and secured funds from multiple venture capital investors in Asia, USA and UK
+      - Created a B2B work-order platform that enables companies of any size to manage their workers quickly and efficiently
+      - Improved client's average customer response time by 80%; clients including one of Asia's largest property developers
+      - Developed 42% of tests for the API, automated deployment on GCP, set up CI pipeline and created automatic backups
   - role: Lead Software Engineer
     time: Aug 2013 - Aug 2018
     company: TellTheChef.com LTD
     location: Oxford, United Kingdom
     tag: food pre-ordering system for the hospitality industry
     details: |
-      - Lead a team of developers to create new company software, ensuring it fits high standards and founder's vision
-      - Created interactive data analysis from their database, using Highcharts, d3 and PHP
-      - Transitioned the company towards cloud-based infrastructure, created an automatic code deployment pipeline, automatic server scaling based on demand, resulting in improved system uptime, availability
-      - Optimised reporting SQL queries, from ones that customers have to wait for 20 minutes to access to instant
+      - Lead a team of developers to create new company software, ensuring it meets coding standards and satisfies customers' needs
+      - Created interactive data mining visualizations on client data, using Highcharts, d3 and PHP
+      - Transitioned the company towards a cloud-based infrastructure, created an automatic code deployment pipeline, automatic server scaling based on demand, resulting in improved system uptime, availability
+      - Optimized reporting SQL queries, reducing customer waiting time from 10 minutes to a few seconds
   - role: Software Engineer
     time: Dec 2014 - Mar 2015
     company: Soft Pauer
     location: Bicester, United Kingdom
-    tag: created the Formula1 Official app
+    tag: created and maintains the Formula1 Official app
     details: |
+      - Converted manual deployment to an automated Ansible operation. This resulted in saving DevOps 90% of their time doing deployment
       - Improved the Formula1 Official app and developed a new F1 Timing website
       - Consulted F1 management about app problems and suggested possible solutions
-      - Contributed to the DevOps team and the F1 Paddock App, a social networking app for VIP users
-      - Converted manual deployment to an automated Ansible operation. This resulted in saving devops 90% of their time doing deployment
-  - role: Software Engineer
-    time: Apr 2014 - Oct 2014
-    company: iJento
-    location: Milton Park, Abingdon
-    tag: data analytics company
-    details: |
-      - Created an interface combining analytics tools into one simple interface using modern tools and agile practices creating new 
+      - Contributed to the DevOps team and created the F1 Paddock App, a social networking app for F1 VIP
+    # Softpauer is a unique company that created the Formula 1 official app and successfully manages to serve millions of Formula 1 users in a single day. I've learned a lot about the challenges they face and how they scale and manage their servers.
+    # At Softpauer I've worked in a small team on the Formula 1 App and the new generation Website timing service.
+    # I've had the opportunity to contribute to their DevOps team and the F1 Paddock App, a social networking app for VIP users.
 
 projects:
   display: true
   title: Projects
-  intro: |
-    Here are some of my best projects
+  intro: 
   items:
   - name: HTC eSports
     link: https://matej.me/htc-esports
     time: Jun 2017 – Aug 2018
     details: |
-      - HTC eSports is commercial project, it presented a lot of challenges and later provided validation of our technical capabilities
-      - Backed by a CMS system Grav, we were able to provide the client with a blazing-fast website. Our audits scored 100% in Chrome's Lighthouse
+      - HTC eSports is a large project that presented a lot of challenges and later provided validation of our technical capabilities
+      - Backed by a CMS system Grav, provided the client with a blazing-fast website. The website scored 100% in Chrome's Lighthouse audits
   - name: Semaphore
     link: https://matej.me/ansible-semaphore
     time: Aug 2014 – Present
     details: |
-      - This is an open source community project I created for Ansible; it's an interface to the closed-source Ansible Tower
+      - Created an open-source community project for Ansible, competing with their proprietary tool Ansible Tower
       - Ansible is a DevOps automation tool that can provision entire data centers, our tool has since gathered a sizeable community who actively support and maintains it
       - 3.3k users / stargazers, 42 contributors & 160 merge requests
-  - name: NodeGear
+  - name: NodeGear Ltd
     link: https://matej.me/nodecloud-nodegear
     time: Aug 2013  Mar 2015
     details: |
       - Created a node.js PaaS from scratch that today resembles some Kubernetes features before it's inception, using Node.js, Golang, Angular, Docker and RabbitMQ
-      - Co-owned the company & responsible for deployment, security, architecture and uptime
+      - Co-owned the company, responsible for all deployment, security, and architecture; delivered a 5-minute pitch to YCombinator
 
 skills:
   display: true
   title: Skills
   details: |
-    **Technical:** GCP & AWS, Kubernetes, Golang, JS, Angular, C, C++, Java, Git, TypeScript, PHP, Flutter, Ionic, Bash scripting, Highcharts, Embedded Electronics <br/>
-    **Business:** Teamwork, Leadership, Teaching, Documentation, Client communication <br/>
-    **Other:** Accounting, Software Security, LaTeX, Customer Support & Consulting
+    GCP & AWS, Kubernetes, Golang, JS, Angular, C, C++, Java, Python, SQL, MongoDB, Git, TypeScript, PHP, Flutter, Ionic, Prometheus, Bash, Highcharts, D3, Accounting, Security, Consulting, Teamwork, Leadership, Teaching, Documentation, Presentation
 
 footer:
   display: true

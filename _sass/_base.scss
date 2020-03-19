@@ -61,16 +61,16 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .name {
-        font-size: $huge-font-size;
+        font-size: $huge-font-size * 1.2;
         font-weight: 900;
         margin-top: 0;
-        margin-bottom: $spacing-unit / 4;
+        margin-bottom: 0;
     }
 
     .title {
         font-family: $base-font-family;
         color: $text-color-secondary;
-        font-size: $middle-font-size;
+        font-size: $middle-font-size * 1.1;
         font-weight: 700;
         margin-top: 0;
         margin-bottom: $spacing-unit / 4;
