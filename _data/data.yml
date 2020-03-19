@@ -48,7 +48,7 @@ education:
     major: Information Technology
     degree: Diploma
     details: |
-      Studied information technology in Oxford.
+      Studied information technology in Oxford, alongside earned a CCNA certificate and studied for the SCJP (Java 6) exam
 
 experiences:
   display: true
@@ -60,15 +60,15 @@ experiences:
     location: Singapore
     tag: self-development app providing content from experts worldwide
     details: |
-      - Mentored developers, translating ideas into design and requirements with enough room to change in the future
-      - Architected solutions to facilitate fast growth, whilst ensuring security and speed for users for an ever changing set of requirements
+      - Interviewing & mentoring developers, communicating ideas and design requirements to the team
+      - Architected solutions to accomodate future growth, whilst ensuring service security and speed for an ever changing set of requirements
   - role: Owner, Senior Software Engineer
     time: Jun 2014 - Present
     company: Castaway Consulting Ltd
     location: London, United Kingdom
     tag: provides software consulting services for it's clients worldwide
     details: |
-      - Consulted 17 clients from different industries, focussed on quality and reputation
+      - Overall consulted 20+ clients from different industries; per year we grew our revenue 36% on average
       - Created leads, secured sales, performed accounting jobs, payroll, client interaction & entertainment
   - role: Co-Founder, CTO
     time: Nov 2017 - Apr 2019
@@ -76,8 +76,9 @@ experiences:
     location: Singapore
     tag: B2B work-order platform for the enterprise
     details: |
-      - Created B2B platform that enables companies of any size manage their workers quickly and efficiently using our work order system
-      - Clients include on of Asia's largest property developer
+      - Created B2B work-order platform that enables companies of any size manage their workers quickly and efficiently
+      - One of Asia's largest property developer improved their response time by 40 minutes on average and saved every worker's roughly 3 hours a day (cumulating to about 1100 hrs per day)
+      - Written 42% of tests for the API, architected and automated deployment on GCP
   - role: Lead Software Engineer
     time: Aug 2013 - Aug 2018
     company: TellTheChef.com LTD
@@ -86,7 +87,8 @@ experiences:
     details: |
       - Lead a team of developers to create new company software, ensuring it fits high standards and founder's vision
       - Created interactive data analysis from their database, using Highcharts, d3 and PHP
-      - Transitioned the company towards cloud-based infrastructure, created an automatic code deployment pipeline, automatic server scaling based on demand
+      - Transitioned the company towards cloud-based infrastructure, created an automatic code deployment pipeline, automatic server scaling based on demand, resulting in improved system uptime, availability
+      - Optimised reporting SQL queries, from ones that customers have to wait for 20 minutes to access to instant
   - role: Software Engineer
     time: Dec 2014 - Mar 2015
     company: Soft Pauer
@@ -94,16 +96,16 @@ experiences:
     tag: created the Formula1 Official app
     details: |
       - Improved the Formula1 Official app and developed a new F1 Timing website
-      - Consulted F1 management about app problems and possible solutions
-      - Automated DevOps operation, from many manual scripts towards ansible
-      - Contribute to the DevOps team and the F1 Paddock App, a social networking app for VIP users
+      - Consulted F1 management about app problems and suggested possible solutions
+      - Contributed to the DevOps team and the F1 Paddock App, a social networking app for VIP users
+      - Converted manual deployment to an automated Ansible operation. This resulted in saving devops 90% of their time doing deployment
   - role: Software Engineer
     time: Apr 2014 - Oct 2014
     company: iJento
     location: Milton Park, Abingdon
     tag: data analytics company
     details: |
-      - Created an interface combining analytics tools into one simple interface using modern tools and agile practices
+      - Created an interface combining analytics tools into one simple interface using modern tools and agile practices creating new 
 
 projects:
   display: true
@@ -115,21 +117,20 @@ projects:
     link: https://n.matej.me/htc-esports
     time: Jun 2017 – Aug 2018
     details: |
-      - HTC eSports is commercial project that I really enjoyed doing, it presented a lot of challenges and later provided validation of our technical capabilities.
-      - Backed by a CMS system Grav, we were able to provide the client with a blazing-fast website. Our audits scored top marks in Chrome's Lighthouse.
+      - HTC eSports is commercial project, it presented a lot of challenges and later provided validation of our technical capabilities
+      - Backed by a CMS system Grav, we were able to provide the client with a blazing-fast website. Our audits scored 100% in Chrome's Lighthouse
   - name: Semaphore
     link: https://n.matej.me/ansible-semaphore
     time: Aug 2014 – Present
     details: |
-      - This is an open source community project I created, it is targeted to serve as an alternative, free interface to the closed-source Ansible Tower
-      - Ansible is an automation tool that can provision entire data centers.
-      - It has since gathered a medium-size community around who actively supports and maintains it
+      - This is an open source community project I created for Ansible; it's an interface to the closed-source Ansible Tower
+      - Ansible is a DevOps automation tool that can provision entire data centers, our tool has since gathered a sizeable community who actively support and maintains it
       - 3.3k users / stargazers, 42 contributors & 160 merge requests
   - name: NodeGear
     link: https://n.matej.me/nodecloud-nodegear
     time: Aug 2013  Mar 2015
     details: |
-      - PaaS that today resembles some Kubernetes features before it's inception
+      - Created a node.js PaaS from scratch that today resembles some Kubernetes features before it's inception, using Node.js, Golang, Angular, Docker and RabbitMQ
       - Co-owned the company & responsible for deployment, security, architecture and uptime
 
 skills:
